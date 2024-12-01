@@ -1,0 +1,30 @@
+/* Navbar.css */
+.navbar {
+  padding: 1rem;
+  background-color: #222;
+}
+
+.navbar-brand img {
+  height: 40px;
+}
+
+.navbar-nav .nav-link {
+  color: #fff !important;
+  padding: 0.5rem 1rem;
+}
+
+.navbar-nav .nav-link:hover {
+  color: #ff6700 !important;
+}
+
+.btn-outline-light {
+  color: #fff !important;
+  border-color: #fff !important;
+}
+
+.btn-outline-light:hover {
+  color: #ff6700 !important;
+  border-color: #ff6700 !important;
+}
+
+  

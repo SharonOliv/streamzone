@@ -1,0 +1,71 @@
+/* Login.css */
+.login-container {
+  background-image: url("https://wallpapercave.com/wp/wp12389567.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login-box {
+  background: white; /* White background */
+  padding: 30px;
+  border-radius: 10px;
+  width: 400px;
+  color: darkblue; /* Dark blue text */
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2); /* Softer shadow for contrast */
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: darkblue; /* Dark blue header text */
+}
+
+.forgot-password-link {
+  display: block;
+  text-align: center;
+  margin-top: 10px;
+  color: darkblue; /* Dark blue link */
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.forgot-password-link:hover {
+  color: #003399; /* Slightly darker blue on hover */
+}
+
+.custom-btn {
+  width: 100%;
+  background-color: rgba(0, 0, 139, 0.5); /* Button background dark blue */
+  color: white; /* Button text white */
+  border: none;
+  border-radius: 5px;
+  font-weight: bold;
+  padding: 10px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.custom-btn:hover {
+  background-color: #003399; /* Slightly darker blue on hover */
+}
+
+.mb-3 label {
+  font-weight: bold;
+  color: darkblue; /* Dark blue labels for input fields */
+}
+
+.form-control {
+  border: 1px solid darkblue; /* Border with dark blue for input */
+  border-radius: 5px;
+}
+
+.form-control:focus {
+  outline: none;
+  box-shadow: 0px 0px 5px rgba(0, 0, 139, 0.5); /* Subtle glow on focus */
+  border-color: #003399; /* Border changes to slightly darker blue */
+}
+
